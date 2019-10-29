@@ -7,6 +7,6 @@ import javax.ws.rs.Path;
 public class FooResource {
    @GET
    public String get() {
-      return "Hello, world!";
+      return "Hello, foo!";
    }
 }
