@@ -15,33 +15,33 @@
     </properties>
 
     <dependencies>
-<!--        <dependency>-->
-<!--            <groupId>javax.servlet</groupId>-->
-<!--            <artifactId>servlet-api</artifactId>-->
-<!--            <version>2.5</version>-->
-<!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>javax.servlet</groupId>-->
+        <!--            <artifactId>servlet-api</artifactId>-->
+        <!--            <version>2.5</version>-->
+        <!--        </dependency>-->
         <dependency>
             <groupId>org.jboss.resteasy</groupId>
-            <artifactId>resteasy-core</artifactId>
+            <artifactId>resteasy-core-spi</artifactId>
             <version>${resteasy.version}</version>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.jboss.resteasy</groupId>-->
-<!--            <artifactId>resteasy-core-spi</artifactId>-->
-<!--            <version>${resteasy.version}</version>-->
-<!--        </dependency>-->
-<!--        下面这个依赖在servlet容器的环境下必须要用到-->
-<!--        https://docs.jboss.org/resteasy/docs/4.3.0.Final/userguide/html_single/index.html#standalone_resteasy-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.jboss.resteasy</groupId>-->
+        <!--            <artifactId>resteasy-core-spi</artifactId>-->
+        <!--            <version>${resteasy.version}</version>-->
+        <!--        </dependency>-->
+        <!--        下面这个依赖在servlet容器的环境下必须要用到-->
+        <!--        https://docs.jboss.org/resteasy/docs/4.3.0.Final/userguide/html_single/index.html#standalone_resteasy-->
         <dependency>
             <groupId>org.jboss.resteasy</groupId>
             <artifactId>resteasy-servlet-initializer</artifactId>
             <version>${resteasy.version}</version>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.jboss.resteasy</groupId>-->
-<!--            <artifactId>resteasy-client-microprofile</artifactId>-->
-<!--            <version>${resteasy.version}</version>-->
-<!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.jboss.resteasy</groupId>-->
+        <!--            <artifactId>resteasy-client-microprofile</artifactId>-->
+        <!--            <version>${resteasy.version}</version>-->
+        <!--        </dependency>-->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>

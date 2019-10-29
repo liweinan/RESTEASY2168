@@ -1,13 +1,8 @@
 package io.weli.resteasy2168.test;
 
-import io.weli.resteasy2168.FooApi;
-import io.weli.resteasy2168.TagsApi;
 //import org.eclipse.microprofile.rest.client.RestClientBuilder;
 import org.junit.jupiter.api.Test;
 
-import java.net.URI;
-
-// https://issues.jboss.org/browse/RESTEASY-2335
 public class TagsApiIT {
 
    public static final String HTTP_LOCALHOST_8080 = "http://localhost:8080";
