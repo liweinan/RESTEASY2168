@@ -4,7 +4,7 @@ import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 import java.util.HashSet;
 
-@ApplicationPath("/")
+@ApplicationPath("/app")
 public class MyApplication extends Application {
 
 // 去掉下面的也可以
