@@ -1,4 +1,4 @@
-package io.weli.test.resteasy.example;
+package io.weli.resteasy2168;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

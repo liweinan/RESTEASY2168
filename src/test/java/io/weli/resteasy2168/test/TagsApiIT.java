@@ -1,6 +1,8 @@
-package irmc;
+package io.weli.resteasy2168.test;
 
-import org.eclipse.microprofile.rest.client.RestClientBuilder;
+import io.weli.resteasy2168.FooApi;
+import io.weli.resteasy2168.TagsApi;
+//import org.eclipse.microprofile.rest.client.RestClientBuilder;
 import org.junit.jupiter.api.Test;
 
 import java.net.URI;
@@ -13,7 +15,7 @@ public class TagsApiIT {
    @Test
 //    @Disabled
    void testGet() {
-      TagsApi tagsApi = RestClientBuilder.newBuilder().baseUri(URI.create(HTTP_LOCALHOST_8080)).build(TagsApi.class);
+//      TagsApi tagsApi = RestClientBuilder.newBuilder().baseUri(URI.create(HTTP_LOCALHOST_8080)).build(TagsApi.class);
 //        Tag tag = tagsApi.get("some-thing", "some-id");
 
 //        assertNull(tag);
@@ -23,7 +25,7 @@ public class TagsApiIT {
    void testFoo() {
 
       // reproducer:
-      FooApi api = RestClientBuilder.newBuilder().baseUri(URI.create(HTTP_LOCALHOST_8080)).build(FooApi.class);
+//      FooApi api = RestClientBuilder.newBuilder().baseUri(URI.create(HTTP_LOCALHOST_8080)).build(FooApi.class);
    }
 
 

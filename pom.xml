@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.weli</groupId>
-    <artifactId>test-resteasy-example</artifactId>
+    <artifactId>RESTEASY-2168</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
@@ -25,6 +25,11 @@
             <artifactId>resteasy-core</artifactId>
             <version>${resteasy.version}</version>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.jboss.resteasy</groupId>-->
+<!--            <artifactId>resteasy-core-spi</artifactId>-->
+<!--            <version>${resteasy.version}</version>-->
+<!--        </dependency>-->
 <!--        下面这个依赖在servlet容器的环境下必须要用到-->
 <!--        https://docs.jboss.org/resteasy/docs/4.3.0.Final/userguide/html_single/index.html#standalone_resteasy-->
         <dependency>
@@ -32,11 +37,11 @@
             <artifactId>resteasy-servlet-initializer</artifactId>
             <version>${resteasy.version}</version>
         </dependency>
-        <dependency>
-            <groupId>org.jboss.resteasy</groupId>
-            <artifactId>resteasy-client-microprofile</artifactId>
-            <version>${resteasy.version}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.jboss.resteasy</groupId>-->
+<!--            <artifactId>resteasy-client-microprofile</artifactId>-->
+<!--            <version>${resteasy.version}</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>

@@ -1,4 +1,4 @@
-package irmc;
+package io.weli.resteasy2168;
 
 import javax.ws.rs.core.Response;
 import java.util.Collection;

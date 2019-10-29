@@ -1,4 +1,4 @@
-package irmc;
+package io.weli.resteasy2168;
 
 public class Tag {
 
